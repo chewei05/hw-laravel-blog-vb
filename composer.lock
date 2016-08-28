@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e5e46abb41efdc9bfa7ca96d562606c",
-    "content-hash": "52f7eefdee821066d352a92fdb3d3f99",
+    "hash": "aab854f18396563ec5ca32f085a658b1",
+    "content-hash": "73fa27b52d56af160e42f8aef8c1b55b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1858,6 +1858,52 @@
                 "dump"
             ],
             "time": "2016-07-26 08:03:56"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "4.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "351593db2412674e7be21db0d5f2e0c16bfe946d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/351593db2412674e7be21db0d5f2e0c16bfe946d",
+                "reference": "351593db2412674e7be21db0d5f2e0c16bfe946d",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js"
+                    ],
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "skins/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "http://www.tinymce.com",
+            "keywords": [
+                "editor",
+                "html",
+                "javascript",
+                "richtext",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "time": "2016-08-25 13:51:28"
         },
         {
             "name": "tracy/tracy",

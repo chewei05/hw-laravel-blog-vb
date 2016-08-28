@@ -160,6 +160,7 @@ return [
          * Custom Providers...
          */
         Recca0120\LaravelTracy\ServiceProvider::class,
+        App\Providers\TinyMceServiceProvider::class,
 
     ],
 
