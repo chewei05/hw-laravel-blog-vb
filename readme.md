@@ -1,27 +1,12 @@
-# Laravel PHP Framework
+# About the project (in English)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+The 3rd homework of Laravel-Dojo, use laravel blade templates to rebulid a blog system from homework #1.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# 說明 (in Chinese)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+這是 Laravel-Dojo 研習的第3個簡易 Blog 實作練習(作業)，以「Laravel框架的blade樣板」實作，沒想到也相當花時間的，
+本作業僅實作Blade的部份，有關表單(From)及Session的部份，則是暫時沒有實作出來。  
+AMP環境以 uwamp 預設值建置，預設首頁為 http://localhost:8000/
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+系統執行前請先下載 public/SQL 資料夾下的 blog.sql 檔案，並匯入至 MySQL 資料庫內。  
+資料庫連線資訊採用 uwamp 預設值，如與預設值不同時，請修改 app/Includes/Connections 資料夾下的 Conn_PDO.php 檔案。
